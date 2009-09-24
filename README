@@ -11,11 +11,11 @@ occurs will be blamed on the "outsider" script or modules not belonging
 to this "clan".
 
 Runtime requirements:
-  perl-5.10.0-3
+  perl-5.10.0-5
 
 Additional build requirements:
   cygport-0.3.9-1
-  make-3.81-1
+  make-3.81-2
   perl-Test-Exception-0.27-1
 
 Canonical homepage:
@@ -39,29 +39,10 @@ This will create:
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /usr/lib/perl5/vendor_perl/5.10/Carp/Clan.pm
-  /usr/lib/perl5/vendor_perl/5.10/Carp/Clan.pod
-  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Carp/Clan/.packlist
-  /usr/share/doc/perl-Carp-Clan-6.00/Artistic.txt
-  /usr/share/doc/perl-Carp-Clan-6.00/Changes
-  /usr/share/doc/perl-Carp-Clan-6.00/GNU_GPL.txt
-  /usr/share/doc/perl-Carp-Clan-6.00/README
-  /usr/share/man/man3/Carp.Clan.3pm.gz
-
-------------------
-
 Port Notes:
 
------ version 6.00-1 -----
-Version bump, built for perl-5.10.
-
------ version 5.9-1 -----
-Version bump.
-
------ version 5.3-1 -----
-Initial release for Cygwin.
+----- version 6.00-2 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
