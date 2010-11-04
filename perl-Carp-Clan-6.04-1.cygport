@@ -1,4 +1,4 @@
-CPAN_AUTHOR=jjore
+CPAN_AUTHOR=stbey
 inherit perl
 
 DOCS="Artistic.txt GNU_GPL.txt"
