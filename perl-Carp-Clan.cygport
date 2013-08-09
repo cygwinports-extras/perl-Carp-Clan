@@ -1,0 +1,15 @@
+CPAN_AUTHOR=stbey
+inherit perl
+
+NAME="perl-Carp-Clan"
+VERSION=6.04
+RELEASE=2
+CATEGORY="Perl"
+SUMMARY="Perl module for module clan error reporting"
+DESCRIPTION="This module reports errors from the perspective of the caller of
+a 'clan' of modules, similar to 'Carp.pm' itself. But instead of giving it a
+number of levels to skip on the calling stack, you give it a pattern to
+characterize the package names of the 'clan' of modules which shall never be
+blamed for any error."
+
+DOCS="Artistic.txt GNU_GPL.txt"
